@@ -1,0 +1,115 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Monoton', cursive;*/
+html{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+.navbar-default .navbar-nav > .active >a{
+color:#399bd1;
+}
+.navbar-default .navbar-nav > .active > a:hover{
+  background-color: #666;
+  color: white;
+}
+.jumbotron{
+  color: white;
+  text-align: center;
+  padding: 11.85rem 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron-bike{
+  background-image: url(../images/jumbotron-bike.jpg);
+}
+.jumbotron-beer{
+  background-image: url(../images/jumbotron-beer.jpg);
+}
+.jumbotron-flowers{
+  background-image: url(../images/jumbotron-flowers.jpg);
+}
+.jumbotron-duffel{
+  background-image: url(../images/jumbotron-duffel.jpg);
+
+}
+
+.jumbotron h1{
+  font-family: 'Monoton', cursive;
+  text-shadow: 2px 2px black;
+  font-size: 7.1rem;
+}
+@media only screen and (max-width: 450px) {
+  .jumbotron h1{
+  font-size: 3rem;
+  }
+  .jumbotron-bike{
+    margin-top: 8rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .jumbotron {
+  padding: 2rem 0;
+  }
+}
+
+.jumbotron p{
+  text-shadow: 2px 2px black;
+}
+.btn-primary{
+box-shadow: 1px 1px 2px black;
+transition: 0.5s;
+padding: 1.3rem 0;
+margin-top: 2.8rem;
+width: 11.4rem;
+}
+.btn-primary:hover{
+box-shadow: 2px 2px 4px black;
+transition: 0.5s;
+}
+.btn-primary:active{
+box-shadow: 2px 2px 2px black;
+transition: 0.2s;
+}
+.relative-wrapper {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+.featured-project{
+
+}
+.featured-project h3, .project h3,
+.categories h4{
+  color:rgb(57, 155, 209);
+}
+.image-container{
+width: 100%;
+overflow: hidden;
+}
+.image-container img{
+width: 100%;
+opacity: 0.7;
+}
+.image-container img:hover{
+  opacity: 1;
+  transition: 0.5s;
+  transform: scale(1.3);
+}
+.project{
+  padding-bottom: 5.85rem;
+}
+.documentary{
+
+}
+.categories{
+
+}
+.help{
+  text-align: center;
+  background-color:#f2f2f2;
+  padding:5.2rem 0;
+}
